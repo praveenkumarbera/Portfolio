@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Praveen Kumar Bera | Aspiring Engineer</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
     .bg-blueish-white { background-color: #135780; }
     .text-blueish-white { color: #e5e5e5; }
@@ -18,8 +19,8 @@
   <div class="container mx-auto px-4 py-5 flex justify-between items-center">
     <h1 class="text-2xl font-bold">Praveen Kumar</h1>
     <nav class="space-x-4">
-      <a href="#about" class="text-gray-100 hover:text-black">About</a>
       <a href="#skills" class="text-gray-100 hover:text-black">Skills</a>
+      <a href="#profile" class="text-gray-100 hover:text-black">Profile</a>
       <a href="#projects" class="text-gray-100 hover:text-black">Projects</a>
       <a href="#education" class="text-gray-100 hover:text-black">Education</a>
       <a href="#contact" class="text-gray-100 hover:text-black">Contact</a>
@@ -37,28 +38,40 @@
   </div>
 </section>
 
-<!-- About Section -->
-<section id="about" class="py-16">
-  <div class="container mx-auto px-4">
-    <h3 class="text-3xl font-bold text-center mb-8">Professional Profile</h3>
-    <p class="text-lg text-center max-w-2xl mx-auto">
-      I am a second-year engineering student passionate about building a strong foundation in Computer Science Engineering. My studies have equipped me with essential skills in programming, and I am excited to deepen my technical knowledge. Through hands-on projects and teamwork, I am developing critical problem-solving abilities and a keen attention to detail. Eager to learn and adapt, I look forward to exploring opportunities that will allow me to apply my skills, expand my expertise, and contribute meaningfully to real-world challenges.
-    </p>
-  </div>
-</section>
-
 <!-- Skills Section -->
 <section id="skills" class="bg-gray-900 py-16">
   <div class="container mx-auto px-4">
     <h3 class="text-3xl font-bold text-center mb-8 text-blueish-white">Skills</h3>
     <div class="flex flex-wrap justify-center space-x-4">
-      <span class="bg-blueish-white text-white px-4 py-2 rounded-full shadow">C++</span>
-      <span class="bg-blueish-white text-white px-4 py-2 rounded-full shadow">Python</span>
-      <span class="bg-blueish-white text-white px-4 py-2 rounded-full shadow">Deep Learning</span>
-      <span class="bg-blueish-white text-white px-4 py-2 rounded-full shadow">HTML</span>
-      <span class="bg-blueish-white text-white px-4 py-2 rounded-full shadow">JS</span>
-      <span class="bg-blueish-white text-white px-4 py-2 rounded-full shadow">CSS</span>
+      <span class="flex items-center space-x-2 bg-blueish-white text-white px-4 py-2 rounded-full shadow">
+        <i class="fab fa-cuttlefish"></i><span>C++</span>
+      </span>
+      <span class="flex items-center space-x-2 bg-blueish-white text-white px-4 py-2 rounded-full shadow">
+        <i class="fab fa-python"></i><span>Python</span>
+      </span>
+      <span class="flex items-center space-x-2 bg-blueish-white text-white px-4 py-2 rounded-full shadow">
+        <i class="fas fa-brain"></i><span>Deep Learning</span>
+      </span>
+      <span class="flex items-center space-x-2 bg-blueish-white text-white px-4 py-2 rounded-full shadow">
+        <i class="fab fa-html5"></i><span>HTML</span>
+      </span>
+      <span class="flex items-center space-x-2 bg-blueish-white text-white px-4 py-2 rounded-full shadow">
+        <i class="fab fa-js"></i><span>JavaScript</span>
+      </span>
+      <span class="flex items-center space-x-2 bg-blueish-white text-white px-4 py-2 rounded-full shadow">
+        <i class="fab fa-css3-alt"></i><span>CSS</span>
+      </span>
     </div>
+  </div>
+</section>
+
+<!-- Professional Profile Section -->
+<section id="profile" class="py-16">
+  <div class="container mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-8">Professional Profile</h3>
+    <p class="text-lg text-center max-w-2xl mx-auto">
+      I am a second-year engineering student passionate about building a strong foundation in Computer Science Engineering. My studies have equipped me with essential skills in programming, and I am excited to deepen my technical knowledge. Through hands-on projects and teamwork, I am developing critical problem-solving abilities and a keen attention to detail. Eager to learn and adapt, I look forward to exploring opportunities that will allow me to apply my skills, expand my expertise, and contribute meaningfully to real-world challenges.
+    </p>
   </div>
 </section>
 
@@ -70,10 +83,6 @@
       <div class="bg-black p-6 shadow rounded-xl text-white">
         <h4 class="text-xl font-bold">E-Voting System</h4>
         <p class="mt-2">A secure and efficient electronic voting system designed to ensure transparency and accuracy in elections.</p>
-      </div>
-      <div class="bg-black p-6 shadow rounded-xl text-white">
-        <h4 class="text-xl font-bold">Word Monitor</h4>
-        <p class="mt-2">An advanced text analysis tool designed to improve writing efficiency and readability.</p>
       </div>
       <div class="bg-black p-6 shadow rounded-xl text-white">
         <h4 class="text-xl font-bold">Bus Management System</h4>
@@ -113,12 +122,11 @@
       <p><strong>Phone:</strong> 9704683883</p>
       <p><strong>Location:</strong> Andhra Pradesh</p>
     </div>
-    <form action="#" method="POST" class="max-w-md mx-auto space-y-4 mt-8">
-      <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-2 border border-blueish-white rounded-full shadow bg-gray-800 text-white">
-      <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-2 border border-blueish-white rounded-full shadow bg-gray-800 text-white">
-      <textarea name="message" placeholder="Your Message" required class="w-full px-4 py-2 border border-blueish-white rounded-full shadow bg-gray-800 text-white"></textarea>
-      <button type="submit" class="w-full bg-blueish-white text-black px-4 py-2 rounded-full hover:bg-blue-200">Send Message</button>
-    </form>
+    <div class="text-center space-x-4 mt-8">
+      <a href="https://github.com/praveenkumarbera" target="_blank" class="text-gray-100 hover:text-blueish-white"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/praveen-kumar-271a482b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="text-gray-100 hover:text-blueish-white"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://www.instagram.com/praveennn_kumarr" target="_blank" class="text-gray-100 hover:text-blueish-white"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>
   </div>
 </section>
 
@@ -128,4 +136,3 @@
 </footer>
 </body>
 </html>
- 
